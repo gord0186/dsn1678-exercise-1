@@ -38,15 +38,19 @@ img {
 	padding:.5rem;
 }
 
-.img{
-	float:left;
+
+.main{
 }
 
 .float{
 	float:left;
-	padding-right:2rem;
-	padding-left:1rem;
-	border-right: solid thin rgba(165,164,164,0.79);
+	width:33%;
+	padding-left:.5rem;
+
+}
+
+.border{
+		border-right:solid thin rgba(205,203,203,1.00); 	
 }
 
 .heading-color{
@@ -58,10 +62,13 @@ img {
 	background-color:rgba(0,0,0,0.52);
 	color:#FFFFFF;
 	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	float:left;
 	position:absolute;
 	bottom:0;
 }
-.figure{
+
+figure{
 	position:relative;
 }
+
+
+
